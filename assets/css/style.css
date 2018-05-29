@@ -20,8 +20,25 @@ nav {position: absolute;
         top: 50px;
         font-size: 26px;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
-        
+    
+        @keyframes robstyle {
+                from {background-color: #4aaaa5;}
+                to {background-color: purple;}
+            }
+
+        @keyframes borderstyle{
+                from {border-top-color: #4aaaa5;}
+                to {border-top-color: purple;}
+        }   
+        @keyframes headingstyle{
+                from {color: #4aaaa5;}
+                to {color: purple;}
+
+        }
+
 .name {background-color:#4aaaa5;
+        animation-name: robstyle;
+        animation-duration: 20s;
         color: #ffffff;
         text-align: center;
          height: 60px;
@@ -43,6 +60,8 @@ footer {background-color: #666666;
         left: 0;
         bottom: -2%;
         border-top-color: #4aaaa5;
+        animation-name: borderstyle;
+        animation-duration: 20s;
         border-top-style: solid;
         border-top-width: 5px;}
 
@@ -57,7 +76,10 @@ footer {background-color: #666666;
         }
 h1{font-family: 'Georgia', Times, Times New Roman, serif;
         font-size: 26px;
-        color:#4aaaa5;}
+        color:#4aaaa5; 
+        animation-name: headingstyle;
+        animation-duration: 20s;
+}
 p{font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         font-size:20px;
         line-height: 1.5;
@@ -103,7 +125,9 @@ input[type=submit], select {
                 text-align: center;
                 font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
                 color: #ffffff;
-                background-color: #4aaaa5;}
+                background-color: #4aaaa5;
+                animation-name: robstyle;
+                animation-duration: 20s;}
  .contact-box{clear: both;
                 background-color:#ffffff;
                  width: 400px;
@@ -127,6 +151,8 @@ input[type=submit], select {
                 height: 60px;
                 line-height:60px;
                 background-color: #4aaaa5;
+                animation-name: robstyle;
+                animation-duration: 20s;
                 color: #ffffff;
                 font-family: 'Georgia', Times, Times New Roman, serif;
                 font-size: 30px;
@@ -139,6 +165,8 @@ input[type=submit], select {
                         height: 60px;
                         line-height:60px;
                         background-color: #4aaaa5;
+                        animation-name: robstyle;
+                        animation-duration: 20s;
                         color: #ffffff;
                         font-family: 'Georgia', Times, Times New Roman, serif;
                         font-size: 30px;
@@ -151,6 +179,8 @@ input[type=submit], select {
                 height: 60px;
                 line-height:60px;
                 background-color: #4aaaa5;
+                animation-name: robstyle;
+                animation-duration: 20s;
                 color: #ffffff;
                 font-family: 'Georgia', Times, Times New Roman, serif;
                 font-size: 30px;
@@ -163,6 +193,8 @@ input[type=submit], select {
                         height: 60px;
                         line-height:60px;
                         background-color: #4aaaa5;
+                        animation-name: robstyle;
+                        animation-duration: 20s;
                         color: #ffffff;
                         font-family: 'Georgia', Times, Times New Roman, serif;
                         font-size: 30px;
@@ -175,6 +207,8 @@ input[type=submit], select {
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -220,6 +254,8 @@ p.clear{clear:both;}
 
 }
 .name {background-color:#4aaaa5;
+        animation-name: robstyle;
+        animation-duration: 20s;
         color: #ffffff;
         text-align: center;
          height: 60px;
@@ -257,6 +293,8 @@ p.clear{clear:both;}
                         height: 60px;
                         line-height:60px;
                         background-color: #4aaaa5;
+                        animation-name: robstyle;
+                        animation-duration: 20s;
                         color: #ffffff;
                         font-family: 'Georgia', Times, Times New Roman, serif;
                         font-size: 30px;
@@ -269,6 +307,8 @@ p.clear{clear:both;}
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -281,6 +321,8 @@ p.clear{clear:both;}
                         height: 60px;
                         line-height:60px;
                         background-color: #4aaaa5;
+                        animation-name: robstyle;
+                        animation-duration: 20s;
                         color: #ffffff;
                         font-family: 'Georgia', Times, Times New Roman, serif;
                         font-size: 30px;
@@ -293,6 +335,8 @@ p.clear{clear:both;}
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -305,6 +349,8 @@ p.clear{clear:both;}
                                         height: 60px;
                                         line-height:60px;
                                         background-color: #4aaaa5;
+                                        animation-name: robstyle;
+                                         animation-duration: 20s;
                                         color: #ffffff;
                                         font-family: 'Georgia', Times, Times New Roman, serif;
                                         font-size: 30px;
@@ -338,6 +384,8 @@ p.clear{clear:both;}
  }
 
  .name {background-color:#4aaaa5;
+        animation-name: robstyle;
+        animation-duration: 20s;
                         color: #ffffff;
                         text-align: center;
                          height: 60px;
@@ -373,6 +421,8 @@ p.clear{clear:both;}
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -385,6 +435,8 @@ p.clear{clear:both;}
                                         height: 60px;
                                         line-height:60px;
                                         background-color: #4aaaa5;
+                                        animation-name: robstyle;
+                                        animation-duration: 20s;
                                         color: #ffffff;
                                         font-family: 'Georgia', Times, Times New Roman, serif;
                                         font-size: 30px;
@@ -397,6 +449,8 @@ p.clear{clear:both;}
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -409,6 +463,8 @@ p.clear{clear:both;}
                                         height: 60px;
                                         line-height:60px;
                                         background-color: #4aaaa5;
+                                        animation-name: robstyle;
+                                        animation-duration: 20s;
                                         color: #ffffff;
                                         font-family: 'Georgia', Times, Times New Roman, serif;
                                         font-size: 30px;
@@ -421,6 +477,8 @@ p.clear{clear:both;}
                                                 height: 60px;
                                                 line-height:60px;
                                                 background-color: #4aaaa5;
+                                                animation-name: robstyle;
+                                                animation-duration: 20s;
                                                 color: #ffffff;
                                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                                 font-size: 30px;
@@ -455,6 +513,8 @@ p.clear{clear:both;}
  }
 
  .name {background-color:#4aaaa5;
+        animation-name: robstyle;
+        animation-duration: 20s;
                         color: #ffffff;
                         text-align: center;
                          height: 60px;
@@ -470,7 +530,7 @@ p.clear{clear:both;}
                                 border: 1px solid #ccc;
                                 float: left;
                                 width: 300px;
-                                postion: relative;
+                                position: relative;
                 
                                 }
                         #caption1{position: absolute;
@@ -480,6 +540,8 @@ p.clear{clear:both;}
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -492,6 +554,8 @@ p.clear{clear:both;}
                                         height: 60px;
                                         line-height:60px;
                                         background-color: #4aaaa5;
+                                        animation-name: robstyle;
+                                        animation-duration: 20s;
                                         color: #ffffff;
                                         font-family: 'Georgia', Times, Times New Roman, serif;
                                         font-size: 30px;
@@ -504,6 +568,8 @@ p.clear{clear:both;}
                                 height: 60px;
                                 line-height:60px;
                                 background-color: #4aaaa5;
+                                animation-name: robstyle;
+                                animation-duration: 20s;
                                 color: #ffffff;
                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                 font-size: 30px;
@@ -516,6 +582,8 @@ p.clear{clear:both;}
                                         height: 60px;
                                         line-height:60px;
                                         background-color: #4aaaa5;
+                                        animation-name: robstyle;
+                                        animation-duration: 20s;
                                         color: #ffffff;
                                         font-family: 'Georgia', Times, Times New Roman, serif;
                                         font-size: 30px;
@@ -528,6 +596,8 @@ p.clear{clear:both;}
                                                 height: 60px;
                                                 line-height:60px;
                                                 background-color: #4aaaa5;
+                                                animation-name: robstyle;
+                                                 animation-duration: 20s;        
                                                 color: #ffffff;
                                                 font-family: 'Georgia', Times, Times New Roman, serif;
                                                 font-size: 30px;
